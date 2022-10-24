@@ -258,6 +258,26 @@ ul {
   text-align: center;
 }
 
+.doing .thumb-wrapper {
+  position: relative;
+}
+
+.doing-captain {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  padding: 27px 15px;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-white-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
 .doing-list {
   display: flex;
   justify-content: space-between;
